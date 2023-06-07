@@ -1,312 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="icon" href="JV (3).png">
-    <title>João Ramirez</title>
+    <title>Design Responsivo</title>
+
+    <link rel="stylesheet" media="(min-width: 680px)" href="primeiro.css">
+    <link rel="stylesheet" media="(max-width: 419px)" href="segundo.css"> 
+    <link rel="stylesheet" media="(min-width: 420px)" href="terceiro.css">
 </head>
-
 <body>
-
-    <div class="bg"></div>
-    <div class="bg bg2"></div>
-    <div class="bg bg3"></div>
-    <!-- Header -->
-    <header style="font-family: 'Roboto', sans-serif;">
-        <div class="nome">JOÃO RAMIREZ</div>
-
-        <div class="navs">
-
-            <div class="nav">
-                <div class="icone">
-                    <a id="icones" class="material-symbols-outlined" style="color: 	white;" href="#informacoes">help</a>
-                </div>
-
-                <div class="escrita">
-                    <a id="texto_nav" style="color: white;">Infos</a>
-                </div>
-            </div>
-
-
-            <div class="nav">
-                <div class="icone">
-                    <a id="icones" class="material-symbols-outlined" style="color: white;"
-                        href="#divisao">description</a>
-                </div>
-
-                <div class="escrita">
-                    <a id="texto_nav" style="color: white;">Curriculo</a>
-                </div>
-            </div>
-
-
-            <div class="nav">
-                <div class="icone">
-                    <a id="icones" class="material-symbols-outlined" style="color: white;"
-                        href="#divisao2">accessibility_new</a>
-                </div>
-
-                <div class="escrita">
-                    <a id="texto_nav" style="color: white;">Skills</a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Corpo do Site -->
-    <main>
-
-        <!-- Infos -->
-        <div id="informacoes">
-
-            <div class="informacoes_2">
-                <img src="perfil.jpg" style="max-width: 95%; border-radius: 100%; margin-top: 9px;">
-            </div>
-
-            <div class="informacoes_1">
-
-                <div class="conteudo_1">
-                    <h2><b>NOME</b></h2>
-                    <div class="escrita_1">
-                        <b><a>João Victor Ramirez Konrath</a></b>
-                    </div>
-                </div>
-
-
-                <div class="conteudo_1">
-                    <h2><b>ORIGEM</b></h2>
-                    <div class="escrita_1">
-                        <a>Curitiba-PR</a>
-                    </div>
-                </div>
-
-                <div class="conteudo_1">
-                    <h2><b>DATA DE NASCIMENTO</b></h2>
-                    <div class="escrita_1">
-                        <a>28/05/2002</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="informacoes_3">
-                <div class="conteudo_3">
-                    <h3><b>EMAIL</b></h3>
-                    <span class="material-symbols-outlined">
-                        mail
-                    </span>
-
-                    <div class="escrita_3">
-                        <a>Joao.rkonrath@gmail.com</a>
-                    </div>
-                </div>
-
-
-                <div class="conteudo_3">
-                    <h3><b>TELEFONE</b></h3>
-                    <span class="material-symbols-outlined">
-                        call
-                    </span>
-                    <div class="escrita_3">
-                        <a>(41) 99873-4510</a>
-                    </div>
-                </div>
-
-                <div class="conteudo_3">
-                    <h3><b>REDES SOCIAIS</b></h3>
-                    <div class="escrita_3">
-                        <img id="foto_rede" src="fotos/facebook.png" style="width: 8%;">
-                        <a href="https://github.com/JoaoRamirezz" target="_blank"><img id="foto_rede"
-                                src="fotos/github.png" style="width: 8%;"></a>
-                        <a href="https://twitter.com/rxmireez" target="_blank"><img id="foto_rede"
-                                src="fotos/twitter.png" style="width: 8%;"></a>
-                        <a href="https://www.instagram.com/joaw_ramirez/" target="_blank"><img id="foto_rede"
-                                src="fotos/instagram.png" style="width: 8%;"></a>
-                        <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-ramirez-8612311bb/" target="_blank"><img
-                                id="foto_rede" src="fotos/linkedin (1).png" style="width: 8%;"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Divisão1 -->
-        <div id="divisao">
-            <br>
-        </div>
-
-
-        <!-- Curriculo -->
-        <div id="curriculo">
-            <div class="estudos" style="font-family: 'Roboto', sans-serif;">
-                <div class="titulo_estudos">CURRICULO</div>
-                <div class="conteudo_estudos">
-                    <div class="exp">
-                        <h1>FORMAÇÃO <span class="material-symbols-outlined">
-                                book
-                            </span></h1>
-                        <div class="conteudos_exp">
-                            <h3>ENGENHARIA DE SOFTWARE</h3>
-                            FACULDADE DA INDUSTRIA - CIC<br>
-                            <b style="color: orange">ANDAMENTO</b>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>TECNICO EM MECATRÔNICA</h3>
-                            SENAI - CIC<br>
-                            <b style="color: green">COMPLETO</b>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>ENSINO MEDIO</h3>
-                            SESI - CIC<br>
-                            <b style="color: green">COMPLETO</b>
-                        </div>
-                    </div>
-
-
-                    <div class="exp">
-                        <h1>EXPERIÊNCIA <span class="material-symbols-outlined">
-                                public
-                            </span></h1>
-                        <div class="conteudos_exp">
-                            <h3>AUXILIAR ADMINISTRATIVO</h3>
-                            ELECTROLUX<br><br>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>APRENDIZ PROGRAMAÇÃO WEB</h3>
-                            BOSCH<br><br>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>APRENDIZ DEV. SISTEMAS</h3>
-                            BOSCH<br><br>
-                        </div>
-                    </div>
-
-                    <div class="exp">
-                        <h1>CURSOS ADICIONAIS <span class="material-symbols-outlined">
-                                menu_book
-                            </span></h1>
-
-                        <div class="conteudos_exp">
-                            <h3>PROGRAMAÇÃO WEB</h3>
-                            SENAI - CENTRO<br>
-                            <b style="color: green">COMPLETO</b>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>INGLES</h3>
-                            INFLUX<br>
-                            <b style="color: green">AVANÇADO</b>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>TECNICO DEV. SISTEMAS</h3>
-                            BOSCH<br>
-                            <b style="color: orange">ANDAMENTO</b>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Divisão2 -->
-        <div id="divisao2">
-        </div>
-
-
-        <!-- Habilidades -->
+    <a href="#13">pular boiolice</a>
+    <br><br><br>
+    <div id="começo"></div>
+    <div class="content1">
+        <a href="#1"><h1>Meu amor...</h1></a>
+        <img src="imagens/polaquinha1.jpg" style="width: 100%;">
+        tudo ao seu lado fica mais tranquilo, animado, perfeito...
+    </div>
     
-        <div id="skills">
-            <div class="estudos" style="font-family: 'Roboto', sans-serif;">
-                
-                <div class="titulo_estudos">SKILLS</div>
-                <div class="conteudo_estudos">
-                    
-                    <div class="exp">
-                        <h1>SOFT SKILLS <span class="material-symbols-outlined">
-                                face
-                            </span></h1>
-                        <div class="conteudos_exp">
-                            <h3>TRABALHO EM GRUPO <span class="material-symbols-outlined">
-                                groups
-                                </span></h3>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>RESOLUÇÃO DE CONFLITOS <span class="material-symbols-outlined">
-                                swords
-                                </span></h3>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>COMUNICAÇÃO INTERPESSOAL <span class="material-symbols-outlined">
-                                record_voice_over
-                                </span></h3>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>APRESENTAÇÃO EM PÚBLICO <span class="material-symbols-outlined">
-                                record_voice_over
-                                </span></h3>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>SENSO DE LIDERANÇA <span class="material-symbols-outlined">
-                                leaderboard
-                                </span></h3>
-                        </div>
-                    </div>
-
-                    <div class="exp">
-                        <h1>HARD SKILLS <span class="material-symbols-outlined">
-                                device_hub
-                            </span></h1>
-
-                        <div class="conteudos_exp">
-                            <h3>PYTHON <span class="material-symbols-outlined">
-                                abc
-                                </span></h3>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>C# <span class="material-symbols-outlined">
-                                abc
-                                </span></h3>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>C++ <span class="material-symbols-outlined">
-                                abc
-                                </span></h3>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>WEB <span class="material-symbols-outlined">
-                                language
-                                </span></h3>
-                        </div>
-                        <div class="conteudos_exp">
-                            <h3>SQL SERVER <span class="material-symbols-outlined">
-                                dns
-                                </span></h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        
+    <div class="content1">
+        <div id="1"><a href="#2"><h1>Eu queria te falar...</h1></a></div>
+        <img src="imagens/polaquinha2.jpg" style="width: 100%;">
+        que os seus olhos são as coisas mais lindas que o ser humado ja presenciou...
+    </div>
+    <div class="content1">
+        <div id="2"><a href="#3"><h1>O quanto você é especial pra mim...</h1></a></div>
+        <img src="imagens/polaquinha3.jpg" style="width: 100%;">
+        nem mesmo meus proprios sentimentos podem explicar...
+    </div>
+    <div class="content1">
+        <div id="3"><a href="#4"><h1>E o quanto cada detalhe em você...</h1></a></div>
+        <img src="imagens/polaquinha4.jpg" style="width: 100%;">
+        te deixam ainda mais perfeita do que ja é...
+    </div>
+    <div class="content1">
+        <div id="4"><a href="#5"><h1>Me deixa fascinado e completamente apaixonado...</h1></a></div>
+        <img src="imagens/polaquinha5.jpg" style="width: 100%;">
+        desde o primeiro dia que vi você sorrindo pra mim naquele bar...
+    </div>
+    <div class="content1">
+        <div id="5"><a href="#6"><h1>Por essa polaquina marrentinha...</h1></a></div>
+        <img src="imagens/polaquinha6.jpg" style="width: 100%;">
+        que quando quer consegue esmagar meu cranio, mas dps me da todo amor do mundo...
+    </div>
+    <div class="content1">
+        <div id="6"><a href="#7"><h1>As vezes quando fecho meus olhos...</h1></a></div>
+        <img src="imagens/polaquinha7.jpg" style="width: 100%;">
+        quando imagino você me abraçando...
+    </div>
+    <div class="content1">
+        <div id="7"><a href="#8"><h1>Eu imagino nosso futuro juntos...</h1></a></div>
+        <img src="imagens/polaquinha8.jpg" style="width: 100%;">
+        com nosso Isaac e nossa Sarah acordando a gente nos finais de semana...
+    </div>
+    <div class="content1">
+        <div id="8"><a href="#9"><h1>E pode ter certeza...</h1></a></div>
+        <img src="imagens/polaquinha9.jpg" style="width: 100%;">
+        absoluta certeza!
+    </div>
+    <div class="content1">
+        <div id="9"><a href="#10"><h1>Que esses são meus pensamentos mais lindos...</h1></a></div>
+        <img src="imagens/polaquinha10.jpg" style="width: 100%;">
+        literalmente todos os meus pensamentos com você são lindos...
+    </div>
+    <div class="content1">
+        <div id="10"><a href="#11"><h1>Pois o meu sonho de ter uma familia...</h1></a></div>
+        <img src="imagens/polaquinha11.jpg" style="width: 100%;">
+        o objetivo que eu sempre sonhei em alcançar...
+    </div>
+    <div class="content1">
+        <div id="11"><a href="#12"><h1>Esta cada vez mais perto...</h1></a></div>
+        <img src="imagens/polaquinha12.jpg" style="width: 100%;">
+        pois eu tenho do meu lado a mulher da minha vida!
+    </div>
+    <div class="content1">
+        <div id="12"><a href="#13"><h1>E nenhuma pessoa no mundo...</h1></a></div>
+        <img src="imagens/polaquinha13.jpg" style="width: 100%;">
+        vai algum dia se comparar à tamanha beleza e preciosidade que você tem...
+    </div>
+    <div class="content1">
+        <div id="13"><a href="#14"><h1>Vai poder mudar isso...</h1></a></div>
+        <img src="imagens/polaquinha14.jpg" style="width: 100%;">
+        Eu te amo pra sempre!!
+    </div>
+    
 
 
+    <div class="links">
+        <a href="#começo">Inicio da boilice</a><br><br>
+        <a href="receitas.html" style="color: rgb(160, 160, 160);"><h3>🧁receitas para fazermos!</h3></a><br>
+        <a href="lugares.html" style="color: rgb(160, 160, 160);"><h3>✈️lugares que a gente precisa viajar!</h3></a><br>
+    </div>
 
-
-    </main>
-    <footer>
-        <a href="#"><img src="JV (3).png" style="width: 130px;"></a>
-        <br><br>
-        2022
-    </footer>
 </body>
-
 </html>
